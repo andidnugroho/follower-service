@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FollowerBoost - Tambah Followers Gratis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <span>FollowerBoost</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#features">Fitur</a></li>
+                    <li><a href="#how">Cara Kerja</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Tingkatkan Followers Media Sosial Anda</h1>
+                <p>Dapatkan followers Instagram, TikTok, dan YouTube secara gratis dan aman</p>
+                
+                <!-- Main Tool Form -->
+                <div class="tool-box">
+                    <form id="followerForm" class="form-input">
+                        <div class="form-group">
+                            <label for="platform">Pilih Platform:</label>
+                            <select id="platform" required>
+                                <option value="">-- Pilih Platform --</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="tiktok">TikTok</option>
+                                <option value="youtube">YouTube</option>
+                                <option value="twitter">Twitter</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username">Username atau URL:</label>
+                            <input type="text" id="username" placeholder="Masukkan username akun Anda" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="followers">Jumlah Followers:</label>
+                            <input type="number" id="followers" placeholder="Contoh: 100" min="1" max="10000" required>
+                        </div>
+
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-zap"></i> Tambah Followers Sekarang
+                        </button>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Permintaan Anda berhasil dikirim! Proses akan dimulai dalam 1-2 menit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Image / Illustration -->
+            <div class="hero-image">
+                <div class="floating-box">
+                    <i class="fas fa-users"></i>
+                    <span>+1000</span>
+                </div>
+                <div class="floating-box delay-1">
+                    <i class="fas fa-heart"></i>
+                    <span>+500</span>
+                </div>
+                <div class="floating-box delay-2">
+                    <i class="fas fa-comments"></i>
+                    <span>+300</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Keunggulan FollowerBoost</h2>
+            <p class="section-subtitle">Mengapa memilih layanan kami?</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Aman & Terpercaya</h3>
+                    <p>Akun Anda 100% aman. Kami tidak meminta password atau data pribadi.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-zap"></i>
+                    <h3>Cepat & Instan</h3>
+                    <p>Followers bertambah dalam hitungan menit setelah submit permintaan.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>100% Gratis</h3>
+                    <p>Tidak ada biaya tersembunyi. Semua layanan dapat digunakan secara gratis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Semua Platform</h3>
+                    <p>Dukung Instagram, TikTok, YouTube, Twitter, dan platform lainnya.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-circle-notch"></i>
+                    <h3>Tersedia 24/7</h3>
+                    <p>Layanan kami aktif sepanjang waktu untuk kemudahan Anda.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Followers Asli</h3>
+                    <p>Semua followers adalah akun nyata, bukan bot atau fake account.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how" class="how-it-works">
+        <div class="container">
+            <h2>Cara Kerja FollowerBoost</h2>
+            <p class="section-subtitle">Proses yang mudah dalam 3 langkah</p>
+
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Isi Form</h3>
+                    <p>Masukkan platform, username, dan jumlah followers yang diinginkan</p>
+                </div>
+
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Verifikasi</h3>
+                    <p>Sistem kami akan memverifikasi akun Anda dalam beberapa detik</p>
+                </div>
+
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Selesai</h3>
+                    <p>Followers langsung bertambah ke akun media sosial Anda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Pertanyaan yang Sering Diajukan</h2>
+            <p class="section-subtitle">Jawaban untuk pertanyaan Anda</p>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Apakah layanan ini aman untuk akun saya?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ya, layanan kami 100% aman. Kami tidak pernah meminta password atau akses ke akun Anda. Semua proses dilakukan melalui API resmi platform media sosial.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Berapa lama proses penambahan followers?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Rata-rata proses membutuhkan waktu 1-2 menit setelah Anda submit permintaan. Untuk jumlah followers yang lebih banyak, mungkin membutuhkan waktu lebih lama.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Apakah ada batasan jumlah followers yang bisa ditambahkan?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Maksimal 10.000 followers per request. Untuk kebutuhan lebih, Anda bisa melakukan multiple request atau hubungi support kami.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Apakah followers akan hilang setelah beberapa hari?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tidak, followers yang Anda dapatkan adalah permanent. Mereka tidak akan hilang atau berkurang seiring waktu.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Platform apa saja yang didukung?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Kami mendukung Instagram, TikTok, YouTube, Twitter, Facebook, dan platform media sosial populer lainnya.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Bagaimana jika followers tidak bertambah?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Jika dalam 24 jam followers belum bertambah, hubungi support kami dan kami akan membantu Anda menyelesaikan masalah atau memberikan refund.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Siap Tingkatkan Followers Anda?</h2>
+            <p>Jangan tunggu lagi, mulai sekarang dan rasakan perbedaannya</p>
+            <a href="#home" class="btn-primary btn-large">
+                <i class="fas fa-arrow-up"></i> Mulai Sekarang
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FollowerBoost</h4>
+                    <p>Platform terpercaya untuk menambah followers media sosial Anda secara gratis dan aman.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#features">Fitur</a></li>
+                        <li><a href="#how">Cara Kerja</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Hubungi Kami</h4>
+                    <p>
+                        <i class="fas fa-envelope"></i> support@followerboost.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone"></i> +62 812-3456-7890
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 FollowerBoost. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
